@@ -1,4 +1,4 @@
-# Flask API Server Assignment
+# Flask API Server
 
 ### Purpose
 - Flask를 사용하여 요구사항에 맞는 서비스를 제공하는 API Server 개발
@@ -7,10 +7,10 @@
 - Python 3.6+
 - Git
 - Flask 2.0+
-- SQLAlchemy 2.x (Flask-SQLAlchemy도 가능)
+- Flask-SQLAlchemy
 
 ### Requirement
-1. Layered Architecture (Spring 참조)
+1. Layered Architecture
 
 
 2. 구현 서비스 상세
@@ -35,8 +35,7 @@
 
 4. 응답 포맷 공통화 (Overrided Response)
 
-5. 여유가 있다면,
-    a. 만약에 API가 version 2를 제공하고 현재 버전을 유지해야하는 상황에서 어떻게 설계를 해야하는지 추가적으로 구현 (라우터 관리)
-    b. 요청이 들어올때마다 들어온 아이피, 서비스, 걸린시간, 응답상태같은 정보를 로그로 남기는 기능을 구현
+5. 만약에 API가 version 2를 제공하고 현재 버전을 유지해야하는 상황에서 어떻게 설계, 구현 
+6. 요청이 들어올때마다 들어온 아이피, 서비스, 걸린시간, 응답상태같은 정보를 로그로 남기는 기능 구현
 
 
